@@ -2,8 +2,8 @@ package BoardSet;
 
 public class Position {
     
-    protected int row;
-    protected int column;
+    private int row;
+    private int column;
 
 
     public Position(int row, int column) {

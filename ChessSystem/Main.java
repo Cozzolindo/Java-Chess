@@ -1,3 +1,4 @@
+import BoardSet.Board;
 import BoardSet.Position;
 
 public class Main{
@@ -5,5 +6,8 @@ public class Main{
 
         Position pos = new Position(3,5);
         System.out.println(pos);
+
+        Board board = new Board(8,8);
+        System.out.println(board);
     }
 }
